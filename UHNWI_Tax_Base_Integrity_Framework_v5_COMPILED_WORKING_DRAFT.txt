@@ -1,0 +1,456 @@
+SECTION 0 — DEFINITIONS
+
+For purposes of this Framework, the following definitions apply.
+
+0.1 Covered Taxpayer
+A Covered Taxpayer means a household that meets the thresholds described in Section 1, determined on an aggregated basis.
+
+0.2 Household
+Household means the Covered Taxpayer and any individuals whose assets, income, or economic interests are aggregated under Section 1 and Section 4, including spouses, minor children, and other individuals whose financial affairs are economically integrated with the Covered Taxpayer.
+
+0.3 Covered Asset
+A Covered Asset means any asset, interest, or position held directly or indirectly by a Covered Taxpayer that gives rise to unrealized appreciation, including interests held through entities, trusts, or other arrangements, unless expressly excluded by the Framework.
+
+Covered Assets include, without limitation:
+(a) publicly traded securities;
+(b) privately held business interests;
+(c) real estate;
+(d) partnership or fund interests; and
+(e) derivative or synthetic positions that substantially replicate economic exposure to appreciation.
+
+0.4 Covered Unrealized Appreciation (CUA)
+Covered Unrealized Appreciation means, with respect to a Covered Asset, the excess of its fair market value over its adjusted basis, determined in accordance with Section 5 and applied on an aggregated basis where required.
+
+0.5 Deferral Cost Charge (DCC)
+The Deferral Cost Charge is the annual charge described in Section 2 that reflects the economic benefit of deferring recognition of Covered Unrealized Appreciation.
+
+0.6 Deferral Duration / Deferral Clock
+Deferral Duration (or deferral clock) means the number of consecutive taxable years during which Covered Unrealized Appreciation with respect to a specific asset remains unrecognized and subject to the Deferral Cost Charge.
+
+0.7 Time-Weighted Deferral Cost (TWDC)
+The Time-Weighted Deferral Cost is the adjustment applied to the Deferral Cost Charge based on the duration of deferral for a specific asset, as described in Section 2.3A.
+
+0.8 Realization Event
+A Realization Event means a sale, exchange, disposition, or other transaction that constitutes a meaningful exit from an economic position, such that the Covered Taxpayer no longer retains substantially similar economic exposure to the asset.
+
+0.9 Substantially Similar Economic Exposure
+Substantially Similar Economic Exposure means an arrangement in which a Covered Taxpayer retains the material risks and rewards of ownership of an asset, including upside participation, downside protection, or control, notwithstanding changes in legal form or nominal ownership.
+
+0.10 Covered Borrowing
+Covered Borrowing means indebtedness that is secured by, guaranteed by, or economically dependent upon Covered Assets.
+
+0.11 Economic Access
+Economic Access means the ability, directly or indirectly, to obtain financial benefit from an asset, including through borrowing, distributions, expense payments, liquidity arrangements, or other mechanisms that substitute for realization.
+
+0.12 Controlled Entity
+A Controlled Entity means any entity in which a Covered Taxpayer, alone or together with related parties, holds sufficient ownership, voting power, contractual rights, or practical influence to direct management, distributions, or disposition of assets.
+
+0.13 Reasonable Expectation of Financial Benefit
+A Reasonable Expectation of Financial Benefit exists where, based on facts and circumstances, a Covered Taxpayer can reasonably anticipate receiving economic benefit from an asset or arrangement, notwithstanding the absence of a legally enforceable right.
+
+0.14 Successor Asset
+A Successor Asset means an asset that replaces or continues a prior asset through restructuring, transfer, or substitution while preserving substantially similar economic exposure, such that the deferral duration of the prior asset continues.
+
+SECTION 1 — COVERED TAXPAYER DETERMINATION
+
+A household shall be treated as a Covered Taxpayer for a taxable year if one or more of the following tests is satisfied:
+
+(1) Net Worth Test.—The household’s aggregated net worth exceeds $20,000,000 (as indexed).
+
+(2) Income Test.—The household’s adjusted gross income exceeds $5,000,000 for the taxable year, provided such income level reflects sustained or recurring income and is not attributable solely to a single, non-recurring spike.
+
+Isolated or non-recurring income spikes, standing alone, do not permanently subject a household to Covered Taxpayer status.
+
+All terms used in this Section have the meanings set forth in Section 0 (Definitions) and Section 4 (Aggregation and Look-Through).
+
+SECTION 2 — DEFERRAL COST CHARGE
+2.1 Imposition of Charge
+Each taxable year, a Covered Taxpayer shall be subject to an annual Deferral Cost Charge (DCC) with
+respect to Covered Unrealized Appreciation (CUA) held during such year.
+The Deferral Cost Charge shall apply without requiring the sale, disposition, or other realization of any
+asset.
+The Deferral Cost Charge is imposed on the continued deferral of recognition and the economic
+access to appreciation, and not on asset ownership as such.
+2.2 Covered Unrealized Appreciation
+For purposes of this Framework, Covered Unrealized Appreciation means, with respect to any covered asset,
+the excess of the fair market value of such asset over its adjusted basis, determined as of the close of the
+taxable year.
+Covered Unrealized Appreciation shall be determined after application of household aggregation, entity
+and trust look-through, and valuation standards prescribed under this Framework.
+2.3 Rate of Charge (Progressive)
+The annual Deferral Cost Charge is applied to Covered Unrealized Appreciation at the following rates, applied progressively (as adjusted for inflation under Section X):
+
+(A) 2.0 percent on Covered Unrealized Appreciation not exceeding $25,000,000;
+(B) 3.0 percent on Covered Unrealized Appreciation exceeding $25,000,000 but not exceeding $250,000,000; and
+(C) 4.0 percent on Covered Unrealized Appreciation exceeding $250,000,000.
+
+2.3A Asset-Specific Time-Weighted Deferral Cost (TWDC)
+Design intent.—Deferral remains permitted, but becomes progressively costly the longer a specific asset’s appreciation remains unrealized—until indefinite deferral is no longer a rational strategy.
+
+Core mechanic (asset-specific).—Each covered asset maintains its own Deferral Duration (“deferral clock”). For each taxable year, the Deferral Cost Charge (DCC) otherwise applicable with respect to such asset’s Covered Unrealized Appreciation is multiplied by a time-weighted multiplier determined solely by the duration of deferral for that asset.
+
+This mechanism is asset-specific and not portfolio-averaged. Realizing (selling or otherwise triggering realization of) one asset resets only that asset’s clock. Acquiring new assets does not dilute, offset, or reset the deferral duration of older, highly appreciated positions.
+
+Deferral duration and reset.—
+(1) Deferral Duration begins in the first taxable year an asset becomes subject to the DCC.
+(2) The deferral clock resets to zero upon a realization event for that asset (sale or exchange treated as realization).
+(3) Transfers or restructurings that preserve substantially similar economic exposure do not reset the clock (anti-avoidance).
+
+Time-weighted multiplier schedule.—Consecutive years of deferral (per asset):
+Years 1–5: 1.00×
+Years 6–10: 1.25×
+Years 11–15: 1.50×
+Years 16–20: 2.00×
+21+ years: 2.50×
+
+Successor / continuation rule (anti-avoidance).—If an asset is replaced, restructured, or transferred through transactions that substantially preserve economic exposure, the successor asset inherits the deferral duration of the predecessor asset. Examples include (non-exhaustive):
+• Like-kind exchanges or rollovers with continued exposure
+• Contributions to controlled entities (including partnerships, trusts, or holding companies)
+• Asset-for-asset swaps or recapitalizations lacking meaningful economic exit
+• Derivative overlays or hedged structures designed to defer realization while retaining upside
+
+The deferral clock resets only where the taxpayer meaningfully exits the economic position.
+
+Policy effect.—The TWDC mechanism preserves voluntary realization decisions, prevents perpetual deferral through asset substitution, aligns tax cost with the duration of unrealized appreciation (not just its size), and avoids forced mark-to-market while neutralizing long-term deferral strategies.
+
+
+2.4 Credit Upon Realization
+2.4 Credit Upon Realization
+Upon the sale or other realization of a covered asset:
+(1) Capital gain shall be determined under otherwise applicable provisions of law.
+(2) The taxpayer shall be allowed a credit against tax attributable to such gain equal to a portion of the
+cumulative Deferral Cost Charges previously paid with respect to such asset.
+
+2.4.1 Credit Percentage (Framework Design)
+Deferral Cost Charges are intended to function as a timing charge, not as an additional layer of tax. Where an asset subject to Deferral Cost Charges is later realized, a credit against capital gains tax would apply based on the duration for which the asset was subject to the Deferral Cost Charge, as follows:
+
+Years Subject to DCC — Credit Percentage
+1–5: 100 percent
+6: 90 percent
+7: 80 percent
+8: 70 percent
+9: 60 percent
+10: 50 percent
+11: 40 percent
+12: 30 percent
+13: 20 percent
+14: 10 percent
+15 or more: 0 percent
+
+This declining credit structure reflects the principle that short-term deferral should not be penalized, while extended deferral should not fully offset realization-based taxation.
+
+2.5 Limitation on Credit
+The credit attributable to Deferral Cost Charges with respect to an asset would not exceed the amount of tax otherwise attributable to the gain realized with respect to that asset.
+
+No credit is intended to apply to any Deferral Cost Charge attributable to a taxable year more than fourteen years preceding the year of realization.
+
+2.6 Payment and Liquidity Provisions (Framework Design)
+The Framework assumes mechanisms to allow Deferral Cost Charges to be satisfied without requiring forced asset sales, particularly where unrealized appreciation is held in illiquid or concentrated form.
+
+Such mechanisms would include, at a minimum:
+(1) Installment payment options, allowing Deferral Cost Charges to be paid over multiple taxable years with an interest component reflecting the time value of money; and
+(2) In-kind payment options, permitting satisfaction of Deferral Cost Charges through the transfer of publicly traded securities or other liquid assets.
+
+
+
+2.7 Anti-Avoidance
+
+For purposes of this section:
+(1) Covered Unrealized Appreciation shall be determined on an aggregated basis across all assets and
+interests required to be aggregated under this Framework.
+(2) Transfers of assets among related parties, entities, or trusts shall not reset the holding period or credit
+schedule.
+(3) Transactions lacking economic substance shall be disregarded.
+2.8 Regulations
+A legislative implementation would prescribe such regulations as are necessary to carry out the purposes of this section,
+including regulations relating to valuation methods, aggregation, credit tracking, and enforcement.
+
+
+For avoidance of doubt, changes in ownership by reason of death, inheritance, or succession do not constitute a Realization Event and do not reset the deferral duration of a Covered Asset.
+SECTION 3 — BORROWING NEUTRALITY
+3.1 In General
+For purposes of this Framework, borrowing shall not be treated as income.
+Borrowing is not treated as income under this Framework, and any tax imposed pursuant to this section is
+imposed on appreciation deemed realized by reason of economic access, rather than on loan
+proceeds.
+3.2 Covered Borrowing
+For purposes of this section, Covered Borrowing means any indebtedness:
+(1) Secured directly or indirectly by covered appreciated assets, or
+(2) Guaranteed by, pledged against, or economically dependent upon covered appreciated assets,
+regardless of whether such indebtedness is incurred by the Covered Taxpayer, a controlled entity, or a
+related trust.
+3.3 Borrowing Neutrality Triggers
+A Borrowing Neutrality Trigger shall occur for any taxable year in which either of the following thresholds
+is exceeded:
+3.3.1 Absolute Borrowing Threshold
+Net new Covered Borrowing during the taxable year exceeds $1,000,000.
+3.3.2 Appreciation-Based Threshold
+Net new Covered Borrowing during the taxable year exceeds 10 percent of Covered Unrealized
+Appreciation.
+3.4 Leverage Ratio Trigger
+A Leverage Ratio Trigger shall occur if, at any time during the taxable year, the aggregate outstanding
+Covered Borrowing secured by covered appreciated assets exceeds 30 percent of the fair market value
+of such assets.
+
+3.5 Deemed Realization Upon Trigger
+Upon the occurrence of any Borrowing Neutrality Trigger under Section 3.3 or any Leverage Ratio Trigger
+under Section 3.4:
+(1) An amount of Covered Unrealized Appreciation equal to the excess borrowing shall be treated as
+realized gain for the taxable year.
+(2) Such gain shall be subject to tax under otherwise applicable capital gains provisions.
+(3) The adjusted basis of the applicable assets shall be increased by the amount of gain so treated as
+realized.
+3.6 Allocation of Deemed Realization
+Implementing regulations or administrative guidance would address providing for the reasonable allocation of deemed realized gain
+among assets securing the borrowing, including ordering rules where multiple assets are pledged.
+3.7 Anti-Avoidance
+For purposes of this section:
+(1) Borrowing incurred through related parties, captive finance entities, or circular arrangements shall be
+treated as Covered Borrowing.
+(2) Refinancings, rollovers, or restructurings shall be treated as net new borrowing to the extent they
+increase economic access to untaxed appreciation.
+(3) Transfers of assets among related parties, entities, or trusts shall not reset borrowing thresholds or
+leverage calculations.
+(4) Transactions lacking economic substance shall be disregarded.
+3.8 Regulations
+A legislative implementation would prescribe such regulations as are necessary to carry out the purposes of this section,
+including rules relating to aggregation, valuation, tracing of loan proceeds, and enforcement.
+
+SECTION 4 — AGGREGATION, TRUST LOOK-THROUGH, AND CONTROL
+4.1 Purpose
+The purpose of this section is to ensure that Covered Taxpayer status, Covered Unrealized Appreciation,
+and Covered Borrowing are determined based on economic reality, and not avoided through
+fragmentation across households, entities, or trusts.
+4.2 Household Aggregation
+For purposes of this Framework, all assets, liabilities, income, appreciation, and borrowing shall be aggregated
+across the following persons and arrangements and treated as held by a single household:
+(1) Spouses, whether filing jointly or separately;
+(2) Minor children; and
+(3) Any individual whose assets or income are substantially supported or controlled by the Covered
+Taxpayer.
+4.3 Entity Look-Through and Control
+4.3.1 Controlled Entities
+Any entity shall be treated as a controlled entity of a Covered Taxpayer if the Covered Taxpayer, directly
+or indirectly:
+(1) Owns 50 percent or more of the equity, capital, profits, or voting interests; or
+(2) Exercises effective control, including through management authority, veto rights, contractual
+arrangements, or economic dependency.
+Assets held by controlled entities shall be treated as held directly by the Covered Taxpayer for purposes of
+this Framework.
+4.3.2 Attribution Through Chains
+Ownership and control shall be determined by attribution through chains of entities, partnerships,
+corporations, and similar arrangements, regardless of formal legal structure.
+4.4 Trust Look-Through Rules
+4.4.1 Covered Trusts
+
+A trust shall be treated as a covered trust with respect to a Covered Taxpayer if the Covered Taxpayer,
+directly or indirectly:
+(1) May receive distributions of income or principal;
+(2) May borrow from the trust or pledge trust assets;
+(3) May have personal expenses paid by the trust;
+(4) Retains any power of substitution, direction, consent, or veto;
+(5) Serves as trustee, co-trustee, trust protector, or holds equivalent authority; or
+(6) Otherwise exercises de facto control over trust assets or administration.
+4.4.2 Attribution of Trust Assets
+Assets held by a covered trust shall be treated as held directly by the Covered Taxpayer for purposes of
+net worth determination, Covered Unrealized Appreciation, Deferral Cost Charge, and Borrowing
+Neutrality Triggers.
+4.4.3 Irrevocability Not Controlling
+The irrevocable nature of a trust shall not, by itself, prevent application of this section if economic access
+or control exists.
+4.5 Related-Party Debt and Circular Arrangements
+4.5.1 Disallowed Liabilities
+Related-party debt shall be disregarded unless the Covered Taxpayer demonstrates that such debt is held
+by an unrelated third party, bears commercially reasonable terms, is supported by actual cash transfers,
+and is serviced with regular interest payments.
+4.5.2 Circular and Captive Financing
+Indebtedness involving circular cash flows, captive finance entities, back-to-back loans, or economically
+offsetting arrangements shall be treated as non-debt for purposes of this Framework.
+4.6 Anti-Fragmentation Rule
+No transaction, restructuring, division, or transfer shall be given effect if a principal purpose is to avoid
+application of this Framework through asset splitting among family members, use of multiple trusts or entities,
+
+migration of assets among related arrangements, or temporary transfers lacking substantive change in
+control or benefit. Such transactions shall be collapsed and treated as a single arrangement.
+4.7 Timing and Continuity
+For purposes of Sections 2 and 3:
+(1) Transfers among aggregated persons or arrangements shall not reset holding periods, credit
+schedules, or borrowing thresholds.
+(2) Covered status shall persist for not less than three taxable years after the taxpayer ceases to meet
+Covered Taxpayer thresholds, unless otherwise provided by regulation.
+4.8 Regulatory Authority
+A legislative implementation would prescribe such regulations as are necessary to carry out this section, including
+attribution rules, control determinations, safe harbors for bona fide third-party arrangements, and
+enforcement and reporting requirements.
+
+Substance-Based Access.
+For purposes of this Framework, a trust is treated as providing economic access where, based on facts and circumstances, the Covered Taxpayer has a reasonable expectation of receiving financial benefit from trust assets, whether through distributions, loans, expense payments, or other arrangements, notwithstanding the absence of a legally enforceable right.
+
+SECTION 5 — VALUATION STANDARDS AND SAFE HARBORS
+5.1 Purpose
+The purpose of this section is to establish clear, standardized, and administrable valuation rules for
+determining Covered Unrealized Appreciation, net worth, and borrowing thresholds, while providing
+narrowly tailored safe harbors to address liquidity constraints and reduce valuation disputes.
+5.2 General Valuation Standard
+Except as otherwise provided in this section, assets shall be valued at fair market value, defined as the
+price at which the asset would change hands between a willing buyer and a willing seller, neither being
+under compulsion and both having reasonable knowledge of relevant facts. Valuation shall be determined
+annually as of the close of the taxable year.
+5.3 Publicly Traded Assets
+5.3.1 Covered Securities
+Publicly traded securities, including stocks, bonds, exchange-traded funds, and similar instruments, shall
+be valued at the closing market price on the last trading day of the taxable year.
+5.3.2 Derivatives
+Derivatives and similar financial instruments shall be valued based on their net economic exposure, as
+determined under regulations set out in implementing regulations or administrative guidance.
+5.4 Real Property
+5.4.1 Valuation Method
+Real property shall be valued using the greater of (1) the most recent assessed value for property tax
+purposes; or (2) an automated valuation model (AVM) or comparable valuation method recognized under implementing regulations or administrative guidance.
+5.4.2 Appeals and Safe Harbor
+A taxpayer may challenge a valuation by submitting a qualified appraisal. No penalty shall apply if the
+reported value is within 15 percent of the value ultimately determined.
+5.5 Closely Held Businesses and Illiquid Assets
+5.5.1 Safe-Harbor Valuation Bands
+
+For interests in closely held businesses, private equity, venture capital, partnerships, or similar illiquid
+assets, valuation may be determined using safe-harbor valuation bands specified under implementing regulations or administrative guidance,
+including revenue-based multiples, EBITDA-based multiples, recent arm’s-length transaction prices, or
+other standardized methods appropriate to the asset class.
+5.5.2 Election of Appraisal
+A taxpayer may elect to use a qualified independent appraisal not more frequently than once every three
+taxable years, unless a material event occurs.
+5.6 Primary Residence
+For purposes of this Framework, the first $5,000,000 of value attributable to a primary residence shall be excluded
+from net worth determination. Value in excess of such amount shall be determined under Section 5.4.
+5.7 Valuation Averaging
+At the election of the taxpayer, Covered Unrealized Appreciation and net worth may be determined using
+a three-taxable-year rolling average, provided such election applies consistently across all covered assets.
+5.8 Liquidity Safe Harbor
+5.8.1 Installment Relief
+If a Covered Taxpayer demonstrates insufficient liquid assets to satisfy obligations arising under Sections
+2 or 3, payment may be made under the installment provisions set forth in Section 2.6.
+5.8.2 Illiquidity Determination
+Illiquidity shall be determined based on cash and cash equivalents, readily marketable securities, and
+reasonably available credit from unrelated third parties.
+5.9 Penalties for Systematic Undervaluation
+If a taxpayer engages in repeated or systematic undervaluation outside applicable safe harbors, implementation and enforcement mechanisms could include enhanced penalties and mandatory appraisal or alternative valuation methods.
+5.10 Regulations
+A legislative implementation would prescribe such regulations as are necessary to carry out this section, including
+
+asset-class-specific valuation tables, safe-harbor thresholds and bands, appraisal standards, and
+reporting and documentation requirements.
+
+Pre-Liquidity Businesses.
+In the case of privately held businesses that have not undergone a public offering or other liquidity event, valuation under this Framework is intended to reflect conservative, supportable estimates of fair market value, taking into account lack of marketability, transfer restrictions, and the absence of reliable price discovery.
+
+The Framework does not treat speculative or unrealized appreciation in pre-liquidity businesses as creating tax burden absent sustained deferral or economic access, including through borrowing, distributions, or liquidity events.
+
+SECTION 6 — REPORTING, COMPLIANCE, AND ADMINISTRATION
+6.1 In General
+The Framework contemplates reporting and compliance mechanisms sufficient to support accurate valuation, aggregation, Deferral Cost Charge calculations, borrowing neutrality determinations, and basis tracking, while minimizing unnecessary administrative burden.
+
+Proportionality.—Reporting and compliance mechanisms are intended to scale with economic access, structural complexity, and risk of avoidance, rather than imposing uniform burdens solely based on asset size.
+
+6.2 Reporting by Covered Taxpayers
+Covered Taxpayers would be expected to report, on an annual basis:
+(1) aggregated asset values and adjusted bases;
+(2) Covered Unrealized Appreciation;
+(3) Deferral Cost Charges and credits;
+(4) Covered Borrowing and leverage metrics; and
+(5) changes in ownership, entity structure, or trust arrangements relevant to aggregation.
+
+6.3 Information Reporting by Third Parties
+A legislative implementation of this Framework would include information reporting requirements applicable to financial institutions, entities, trusts, and other parties facilitating borrowing, valuation, or transfers of covered assets.
+
+6.4 Recordkeeping and Documentation
+The Framework assumes contemporaneous documentation sufficient to substantiate valuations, borrowing arrangements, basis adjustments, and eligibility for safe harbors or installment relief.
+
+6.5 Safe Harbors and Simplified Reporting
+The Framework contemplates safe harbors and simplified reporting regimes intended to reduce compliance burdens where standardized valuation methods are used and to focus enforcement resources on high-risk arrangements.
+
+6.6 Coordination With Existing Reporting Regimes
+Reporting under this Framework is intended to coordinate with existing tax reporting and information regimes to the extent practicable, avoiding duplication and unnecessary complexity.
+
+6.7 Enforcement Principles
+Enforcement mechanisms under a legislative implementation of this Framework would prioritize consistency and neutrality, detection of aggregation avoidance and borrowing abuse, and efficient resolution of valuation disputes.
+
+SECTION 7 — COORDINATION WITH EXISTING TAX LAW
+7.1 In General
+The Framework is intended to operate in coordination with existing federal tax provisions, including income, capital gains, estate, gift, and information reporting regimes.
+
+Nothing in this Framework is intended to displace otherwise applicable tax rules except to the extent necessary to neutralize deferral advantages, borrowing-based access, or structural avoidance addressed herein.
+
+7.2 Coordination With Capital Gains Taxation
+The Framework is designed to complement, not replace, existing capital gains taxation.
+
+Amounts treated as realized under borrowing neutrality principles, or credited under the Deferral Cost Charge, are intended to integrate with capital gains treatment so that appreciation is taxed once, and only once, over time.
+
+7.3 Coordination With Estate and Gift Tax
+The Framework assumes coordination with estate and gift tax provisions to prevent the elimination of untaxed appreciation through transfers at death or by gift. A legislative implementation would address basis adjustments, inclusion rules, or other mechanisms necessary to ensure that appreciation subject to Deferral Cost Charges or borrowing neutrality treatment is not permanently excluded from the tax base.
+
+7.4 Coordination With Trust Taxation
+The Framework is intended to coordinate with existing trust taxation regimes, including grantor and non-grantor trust rules, to ensure that aggregation and look-through principles operate consistently and do not depend solely on formal trust classification.
+
+7.5 Avoidance of Double Taxation
+The Framework is intended to prevent double taxation through consistent basis adjustments, credit mechanisms, and coordination across realization events.
+
+SECTION 8 — TRANSITION, PHASE-IN, AND GRANDFATHERING
+8.1 In General
+The Framework contemplates transition rules and phase-in provisions intended to allow affected taxpayers, markets, and administrative systems to adjust in an orderly manner.
+
+Transition provisions are intended to balance fairness, administrability, and avoidance prevention.
+
+8.2 Initial Applicability
+The Framework assumes that Deferral Cost Charges, borrowing neutrality principles, aggregation rules, and reporting requirements would apply beginning with taxable years following an initial implementation period.
+
+8.3 Phase-In of Deferral Cost Charge
+The Framework contemplates a gradual phase-in of Deferral Cost Charge rates during the initial years of implementation to mitigate liquidity disruptions and allow valuation and reporting systems to mature.
+
+8.4 Treatment of Pre-Existing Assets
+The Framework assumes transitional rules addressing assets held prior to implementation, which may include establishment of initial basis or valuation reference points, averaging or smoothing mechanisms for accumulated appreciation, or limited grandfathering where appropriate to avoid retroactive effects.
+
+8.5 Borrowing and Leverage Transition
+The Framework contemplates transitional relief for borrowing arrangements existing prior to implementation, including grace periods to adjust leverage, exclusions for refinancing that does not increase economic access, and anti-avoidance rules to prevent manipulation during the transition period.
+
+8.6 Anti-Abuse During Transition
+The Framework assumes anti-abuse provisions to prevent acceleration, restructuring, or artificial transactions undertaken primarily to avoid application of the Framework during the transition period.
+
+SECTION 9 — ANTI-AVOIDANCE AND ECONOMIC SUBSTANCE
+9.1 In General
+The Framework is intended to be applied consistent with principles of economic substance, substance over form, and anti-abuse, so that outcomes reflect real economic activity and access rather than formal legal distinctions.
+
+9.2 Disregard of Artificial Transactions
+Transactions, arrangements, or series of steps that lack economic substance, are undertaken primarily to avoid application of this Framework, or artificially fragment ownership, access, or appreciation are disregarded.
+
+9.3 Step Transaction Doctrine
+Related transactions undertaken pursuant to a plan, understanding, or series of steps are treated as a single integrated transaction where appropriate to reflect economic reality.
+
+9.4 Circular and Offset Arrangements
+Circular, reciprocal, offsetting, or self-canceling arrangements that obscure economic ownership, appreciation, or access are disregarded.
+
+9.5 Use of Intermediaries
+The use of intermediaries, conduits, or nominal parties does not prevent application of aggregation, borrowing neutrality, or deferral cost principles where the Covered Taxpayer retains economic access or control.
+
+9.6 Coordination With Existing Anti-Abuse Doctrines
+The Framework is intended to operate consistently with existing judicial and statutory anti-abuse doctrines, including economic substance, sham transaction, and step transaction principles.
+
+SECTION 10 — EFFECTIVE DATE, REVIEW, AND EVOLUTION
+10.1 Effective Date
+The Framework contemplates an effective date sufficient to allow for orderly implementation, systems development, and taxpayer adjustment, following enactment of any legislative implementation.
+
+10.2 Periodic Review
+The Framework assumes periodic review of thresholds, rates, valuation standards, and compliance mechanisms to ensure continued alignment with economic conditions, market evolution, and avoidance behavior.
+
+10.3 Data-Driven Evaluation
+A legislative implementation of this Framework would include mechanisms for collecting and analyzing data necessary to evaluate revenue effects, behavioral responses, compliance costs, and distributional outcomes.
+
+10.4 Amendments and Refinement
+The Framework is intended to serve as a living design, capable of refinement and adjustment over time in response to empirical evidence, administrative experience, and policy objectives.
+
+SECTION X — INFLATION ADJUSTMENT
+Any dollar amount specified in this Framework shall be adjusted annually for inflation.
+
+Adjustments shall be made by multiplying the applicable dollar amount by the ratio of the Consumer Price Index for All Urban Consumers (CPI-U), as published by the Bureau of Labor Statistics, for the calendar year preceding the taxable year, to the CPI-U for calendar year 2026.
+
+Any amount so adjusted shall be rounded to the nearest $100,000, or such other rounding increment as may be used for administrative convenience.
