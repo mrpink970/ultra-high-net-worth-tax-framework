@@ -70,13 +70,6 @@ The goal is correction, not confiscation.
 
 ⸻
 
-### Repository Contents
-
-- Draft Bill (v4)  
-- Objectives & Rationale Letter  
-- Progressive Capital Gains Companion Proposal  
-
-Each component is modular and can be evaluated independently.
 
 ⸻
 
